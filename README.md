@@ -12,6 +12,7 @@ conda install pyega3
 pyega3 --help
 ```
 4. Create a credential file in .json format in your directory
+
 ega-download-client/pyega3/config/
 ```
 {
