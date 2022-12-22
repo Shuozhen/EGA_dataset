@@ -31,4 +31,6 @@ pyega3 -cf credential.json files EGAD0000100xxxx
 7. Download a certain file in to the local directory
 ```
 pyega3 -cf credential.json fetch EGAF0000xxxxxxx
+% -c is the number of connection
+pyega3 -cf credential.json -c 20 fetch EGAF0000xxxxxxx
 ```
